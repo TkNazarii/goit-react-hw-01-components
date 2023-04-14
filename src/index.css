@@ -13,3 +13,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold; /* Set default font weight for headings */
+  }
+  
+  p {
+	margin: 0; /* Add default margin to paragraphs */
+  }
+  
+  a {
+	color: inherit; /* Inherit text color from parent element */
+	text-decoration: none; /* Remove default underline */
+  }
+  
+  img {
+	max-width: 100%; /* Make sure images don't overflow their container */
+  }
+
+  ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  li {
+	list-style-type: none;	  
+  }

@@ -1,0 +1,22 @@
+.profile {
+	border: 1px solid black;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.profile__description {
+color: brown;
+}
+
+.profile__stats {
+	display: flex;
+	justify-content: space-around;
+}
+
+.profile__stats-item {
+	display: flex;
+	flex-direction: column;
+}
